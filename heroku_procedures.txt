@@ -1,0 +1,8 @@
+git init
+heroku login #launches browser for login
+heroku create #https://whispering-citadel-72122.herokuapp.com
+git add .
+git commit -m "Initial Commit"
+git push heroku master
+
+heroku ps:scale web=1
